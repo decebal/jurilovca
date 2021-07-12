@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "../",
+    "paths": {
+      "components/*": ["./components/*"],
+      "pageComponents/*": ["../pageComponents/*"],
+      "constants/*": ["./constants/*"],
+      "assets/*": ["./assets/*"],
+      "public/*": ["./public/*"]
+    }
+  }
+}
