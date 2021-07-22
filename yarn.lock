@@ -6041,10 +6041,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-material-icons@0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/material-icons/-/material-icons-0.6.0.tgz#fba2ce9aafc9524804c681e8ebae0dfd9ab22658"
-  integrity sha512-9ScKpchDmH8i80Oq+k8eiBvmxNaFfgaLErFuyu66wS/tHVuJiLj4awtgSd0Q0hrCKlbjZj4DKtobUyy5q1MbJg==
+material-icons@0.7.7:
+  version "0.7.7"
+  resolved "https://registry.yarnpkg.com/material-icons/-/material-icons-0.7.7.tgz#10e67bc0a105d355469b12aa3cab1cf91a2b03e7"
+  integrity sha512-WzHzL+/QlcCRbF2aCElgv6r0ViRateatEQP/UOA502PitZNFF2BJIcGpzvJmMPShktkhhrLAFx+elDN7DcjXVQ==
 
 material-ripple-effects@2.0.1:
   version "2.0.1"
