@@ -4310,6 +4310,13 @@ hmac-drbg@^1.0.1:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
+hoist-non-react-statics@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
+  integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
+  dependencies:
+    react-is "^16.7.0"
+
 hosted-git-info@^2.1.4:
   version "2.8.9"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
@@ -6393,12 +6400,13 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-next-firebase-auth@0.13.1:
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/next-firebase-auth/-/next-firebase-auth-0.13.1.tgz#f2d5a2f5f59a4361ac08e1ae3226fac5b789a238"
-  integrity sha512-77JFtsB63OYzfOVRV7Re/JLPSqPrGLY33CCRrp9dgcWB6RevYy671EpP50EOxLIeqmangERLnsgzgzhcvNExpA==
+next-firebase-auth@0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/next-firebase-auth/-/next-firebase-auth-0.15.0.tgz#ab71e4f19586f92f90898385f11d00c23e363181"
+  integrity sha512-N7/HLXCgu2D8vOI5RzQ0qsGoA+0aiX73pBr05srBphapPzlxW6+B9FZrtqSce51XrB5YAE+iLBNugI+T5aNN3w==
   dependencies:
     cookies "^0.8.0"
+    hoist-non-react-statics "^3.3.2"
 
 next-images@1.7.0:
   version "1.7.0"
@@ -8038,7 +8046,7 @@ react-dom@17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
-react-is@16.13.1, react-is@^16.8.1, react-is@^16.8.6:
+react-is@16.13.1, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.6:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==

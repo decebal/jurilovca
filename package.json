@@ -22,7 +22,7 @@
     "material-icons": "0.6.0",
     "material-ripple-effects": "2.0.1",
     "next": "10.2.3",
-    "next-firebase-auth": "0.13.1",
+    "next-firebase-auth": "0.15.0",
     "next-images": "1.7.0",
     "prop-types": "15.7.2",
     "react": "17.0.2",
